@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.env
+data/out/
+
+# regenerable data (python scripts/generate_*.py) and third-party sample PDFs
+data/hard/
+data/world*/
+data/real/
+
+# third-party dataset, logs, archives
+data/sample invoices/
+llm_calls.jsonl
+*.zip
